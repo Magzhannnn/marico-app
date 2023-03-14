@@ -157,7 +157,7 @@ export const chooseRole = (): string => {
 	}
 
 	if (typeof secretKeyAdmin === 'string')
-		return secretKeyAdmin === process.env.REACT_APP_SECRET_ADMIN ? 'admin' : '';
+		return secretKeyAdmin === "MARICO_1998_EXPERT_PRODUCT" ? 'admin' : '';
 	//если secretKeyAdmin не string а что-то другое
 	return '';
 };
