@@ -1,0 +1,56 @@
+.add-product_form {
+	@apply mt-[150px] w-1/2 mx-auto bg-gray-600 py-2 px-5 rounded-xl;
+}
+
+.form_btn {
+	@apply mt-2 mb-2 bg-blue-300 hover:bg-blue-500;
+}
+
+.brand,
+.device {
+	@apply w-full flex items-center justify-between space-x-11 px-12;
+}
+
+.brand_input,
+.device_input {
+	@apply w-full bg-transparent border-black border-b-[3px] py-0 mt-0 text-black;
+}
+
+.device_input::-webkit-input-placeholder,
+.brand_input::-webkit-input-placeholder,
+.product_input::-webkit-input-placeholder {
+	color: #000;
+}
+
+.brand_btn,
+.device_btn {
+	@apply bg-gray-800 hover:bg-gray-700/75;
+}
+
+.product {
+	@apply text-center px-12;
+}
+
+.product_input {
+	@apply bg-transparent border-black border-b-[2px] text-black pl-5 py-0 mt-4 w-full;
+}
+
+.product-select {
+	@apply pr-3 text-[23px] pb-[5px] font-medium cursor-pointer outline-none text-black border-b-2 bg-transparent border-black;
+}
+
+.select_option {
+	@apply text-xl text-black font-light;
+}
+
+.product-btn {
+	@apply mt-5 w-max;
+}
+
+.product-add_char {
+	@apply flex justify-center space-x-3 items-start mt-3;
+}
+
+/* .add-char_btn {
+	@apply mt-2
+} */

@@ -1,0 +1,93 @@
+.devices {
+	@apply w-[380px] text-xl font-medium mt-[8px] ml-[50px];
+}
+
+.devices-title {
+	@apply text-[24px] mb-3 cursor-pointer;
+}
+
+.device-name {
+	@apply font-normal text-[23px] hover:underline cursor-pointer mt-2 text-gray-300 pr-0;
+}
+.underline_dev {
+	@apply underline;
+}
+.price-filter {
+	@apply flex w-[800px] space-x-10 text-black items-center  mb-10;
+}
+
+.price-filter_input {
+	@apply mt-0 py-0;
+}
+
+.price-filter_select {
+	@apply pr-3 text-[23px] font-medium cursor-pointer outline-none text-gray-400 border-b-2 bg-black border-textColor;
+}
+
+.select_option {
+	@apply text-xl text-white font-light;
+}
+
+.price-filter_btn {
+	@apply w-max px-8 py-2;
+}
+
+.price-filter_add {
+	@apply bg-blue-500 py-1 px-[6px] text-4xl text-white rounded-full cursor-pointer hover:bg-blue-700 fixed bottom-4 right-4;
+}
+
+.pricing-list {
+	@apply flex flex-wrap w-[1000px];
+}
+
+.pricing-item {
+	@apply mr-5 w-[22%] mb-5 bg-white text-black rounded-md relative  border-white border-2;
+}
+.pricing-item_image {
+	@apply absolute top-0 left-0 bg-[url("../../image/iphone12.jpg")] rounded-md bg-cover bg-no-repeat w-full h-[150px];
+}
+
+.pricing-item_name {
+	@apply mt-[162px] ml-2 font-medium text-[18px];
+}
+
+.pricing-item_device {
+	@apply ml-2 font-light text-base;
+}
+
+.pricing-item_price {
+	@apply mb-3 ml-2 text-[20px];
+}
+
+.pricing-item_like_white,
+.pricing-item_like_red {
+	@apply bg-[url("../../image/redLike.webp")] bg-cover bg-no-repeat w-[19px] h-[17px] absolute top-[10px] right-[10px] cursor-pointer;
+}
+
+.pricing-item_like_white {
+	@apply bg-[url("../../image/whiteLike.png")] w-[23px] h-[20px] top-[6px] right-[8px];
+}
+
+.pricing-item_foot {
+	@apply flex justify-between items-start mr-[17px];
+}
+
+.pricing-item_buy {
+	@apply text-xl text-blue-900 cursor-pointer hover:underline;
+}
+
+.modal_content_active {
+	@apply border border-blue-500 border-2 px-4;
+}
+
+.show-prod {
+	@apply mt-4 flex justify-between items-center;
+}
+
+.show-prod_total {
+	@apply text-[28px] ml-[46px];
+}
+
+.show-prod_btns {
+	@apply flex items-center;
+}

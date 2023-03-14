@@ -1,0 +1,15 @@
+.modal {
+	@apply ml-0 h-full w-full bg-gray-900/75 fixed top-0 left-0 flex items-center justify-center opacity-0 pointer-events-none transition ease-in-out duration-500 text-black z-20;
+}
+
+.activate {
+	@apply opacity-100 pointer-events-auto;
+}
+
+.modal__content {
+	@apply w-2/5 py-5 rounded-xl bg-gray-300 scale-50 transition ease-in-out duration-[400ms] px-4;
+}
+
+.activate_content {
+	@apply scale-100;
+}

@@ -1,0 +1,9 @@
+export const ABOUT_ROUTE: string = '/about';
+export const LOGIN_ROUTE: string = '/login';
+export const SIGN_ROUTE: string = '/sign';
+export const PRICING_ROUTE: string = '/pricing';
+export const BLOG_ROUTE: string = '/blog';
+export const ADMIN_ROUTE: string = '/view';
+export const SELLER_ROUTE: string = '/addprod';
+export const USER_CASE_ROUTE: string = '/user-case';
+export const BLOG_PRICING_ROUTE: string = '/blog-pricing';

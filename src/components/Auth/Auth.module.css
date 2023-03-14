@@ -1,0 +1,50 @@
+.auth-title,
+.auth-text {
+	@apply text-[55px] sm:text-[75px] leading-[112px] font-semibold text-center mt-[90px];
+}
+
+.auth-text {
+	@apply text-xl sm:text-2xl font-normal leading-9 mt-0;
+}
+
+.auth-form {
+	@apply block lg:flex lg:flex-wrap justify-between w-3/5 lg:w-4/5 mx-auto items-center;
+}
+
+.auth_btn {
+	@apply h-max w-full lg:w-[45%] mt-20 text-[23px];
+}
+
+.other_auth {
+	@apply hidden md:block mt-16 text-2xl leading-9 font-normal text-center;
+}
+
+.other_auth_span {
+	@apply text-[54px] font-semibold leading-[81px];
+}
+
+.other-auth_items {
+	@apply hidden md:block xl:flex items-center justify-around mb-20 mt-12;
+}
+
+.with-auth {
+	@apply flex items-center leading-8 font-normal py-3 w-[45%] xl:w-[30%] mx-auto  border-2 border-white rounded-lg cursor-pointer hover:bg-gray-700 mt-5 xl:mt-0 text-base lg:text-[21px];
+}
+
+.with-auth_facebook,
+.with-auth_google,
+.with-auth_apple {
+	@apply bg-[url("../../image/facebook.png")] bg-cover bg-no-repeat w-8 h-8 mr-3 xl:ml-8 ml-8 lg:ml-14;
+}
+
+.with-auth_google {
+	@apply bg-[url("../../image/google.png")];
+}
+
+.with-auth_apple {
+	@apply bg-[url("../../image/apple.png")] h-9 w-[30px];
+}
+
+.auth_foot {
+	@apply my-16 text-center font-medium text-xs sm:text-base leading-6 hover:text-blue-400 cursor-pointer;
+}

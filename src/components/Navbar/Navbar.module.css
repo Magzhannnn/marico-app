@@ -1,0 +1,20 @@
+.navbar {
+	@apply flex justify-between items-center mt-3 text-[21px] leading-8 font-medium text-textColor;
+}
+
+.navbar_left {
+	@apply hidden sm:block bg-[url("../../image/company_logo.png")] bg-cover bg-no-repeat w-[156px] h-[36px];
+}
+
+.navbar_right,
+.navbar_center {
+	@apply flex items-center justify-center space-x-5;
+}
+
+.navbar_center {
+	@apply mr-24;
+}
+
+.navbar_link {
+	@apply hover:text-hoverNav cursor-pointer;
+}

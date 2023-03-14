@@ -1,0 +1,5 @@
+.auth_input {
+	@apply text-[#000] border-b-2 bg-black border-textColor 
+	sm:py-2 mt-12 text-white text-base sm:text-[23px] font-normal leading-[34px]
+	outline-none lg:w-[45%] w-full;
+}

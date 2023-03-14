@@ -1,0 +1,142 @@
+.blog-title {
+	@apply font-semibold text-[120px] leading-[180px] text-center mt-20;
+}
+
+.blog-text {
+	@apply font-normal text-[30px] leading-[45px] mb-20 text-center;
+}
+
+.blog-list {
+	@apply flex items-center justify-between flex-wrap;
+}
+
+.blog-list_loading {
+	@apply text-center text-[65px] font-bold w-full text-red-300;
+}
+
+.blog-item {
+	@apply relative w-[30%] h-[256px] mr-10 pt-[35px] pr-[47px] pb-4 pl-7 mb-10 rounded-xl border-textColor border hover:bg-gray-900 cursor-pointer;
+}
+
+.blog-item_twitter,
+.blog-item_youtube,
+.blog-item_wordpress,
+.blog-item_substack,
+.blog-item_medium,
+.blog-item_rss,
+.blog-item_spotify,
+.blog-item_anchor,
+.blog-item_apple,
+.blog-item_instagram,
+.blog-item_linkedin,
+.blog-item_facebook {
+	@apply mb-[17px] bg-[url("../../image/wordpress.png")] bg-cover bg-no-repeat rounded-full w-[50px] h-[50px];
+}
+.blog-item_twitter {
+	@apply bg-[url("../../image/twitter.png")];
+}
+.blog-item_youtube {
+	@apply bg-[url("../../image/youtube.png")];
+}
+.blog-item_substack {
+	@apply bg-[url("../../image/substack.png")];
+}
+.blog-item_medium {
+	@apply bg-[url("../../image/medium.png")];
+}
+.blog-item_spotify {
+	@apply bg-[url("../../image/spotify.png")];
+}
+.blog-item_anchor {
+	@apply bg-[url("../../image/anchor.png")];
+}
+.blog-item_apple {
+	@apply bg-[url("../../image/applePod.png")];
+}
+.blog-item_instagram {
+	@apply bg-[url("../../image/instagram.png")];
+}
+.blog-item_linkedin {
+	@apply bg-[url("../../image/linkedin.png")];
+}
+.blog-item_facebook {
+	@apply bg-[url("../../image/facebook.png")];
+}
+
+.blog-item_title {
+	@apply font-semibold text-[30px] leading-[45px] mb-[11px];
+}
+
+.blog-item_text {
+	@apply font-normal text-base leading-[34px] text-[#828282];
+}
+
+.blog-item_finish {
+	@apply absolute top-[7px] right-[7px] font-normal text-base text-[#4a7de3]
+  bg-[#102142] pt-[9px] pr-[17px] pb-[6px] pl-[19px] w-max rounded-xl;
+}
+
+.admin-title {
+	@apply text-[45px] text-center;
+}
+
+.btn-blue_finish,
+.btn-red_finish {
+	@apply w-max mx-auto bg-green-500 hover:bg-green-800 
+	py-2 px-6 rounded-lg text-3xl text-white cursor-pointer;
+}
+
+.btn-red_finish {
+	@apply bg-red-500 hover:bg-red-800;
+}
+
+.blog-pricing_back {
+	@apply px-[11px] pb-[2px] bg-blue-600 text-[33px] w-max rounded-full absolute top-[90px] left-[55px] cursor-pointer hover:bg-blue-900;
+}
+
+.choose_items {
+	@apply flex items-start justify-around mt-5 mb-10;
+}
+
+.blog-subscription {
+	@apply relative w-[30%] border border-gray-500 py-5 px-5 h-[560px] rounded-xl;
+}
+
+.blog-subscription_title {
+	@apply text-2xl leading-5 mb-[10px] font-bold mt-[14px];
+}
+
+.blog-subscription_text {
+	@apply min-h-[42px] text-[12px] leading-[14px] text-[#5a6774] font-medium p-0;
+}
+
+.blog-subscription_price {
+	@apply flex text-5xl leading-10 font-bold m-0 p-0 tracking-[-0.5px] items-center pb-10 pt-[28px];
+}
+.blog-sub_month {
+	@apply ml-2 text-xl;
+}
+
+.blog-subscription_subopport {
+	@apply text-lg text-blue-300;
+}
+
+.blog-opport_li {
+	@apply text-sm leading-[1.2em] py-[0.4em];
+}
+
+.blog-foot {
+	@apply absolute bottom-[15px] w-max mx-auto right-auto left-auto;
+}
+
+.blog-billed {
+	@apply text-center text-base mb-3;
+}
+
+.blog-btn {
+	@apply bg-white text-blue-500 hover:text-white;
+}
+
+.blog-buy_item {
+	@apply text-2xl font-bold;
+}

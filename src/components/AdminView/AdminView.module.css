@@ -1,0 +1,49 @@
+.admin-view_form {
+	@apply flex w-3/5 mx-auto justify-around items-center mt-[100px];
+}
+
+.btn {
+	@apply inline px-10 ml-7;
+}
+
+.admin-filter_input {
+	@apply pb-1 pt-0;
+}
+
+.admin-filter_select {
+	@apply ml-7 pr-3 text-[23px] pb-[5px] font-medium cursor-pointer outline-none text-gray-400 border-b-2 bg-black border-textColor;
+}
+
+.select_option {
+	@apply text-xl text-white font-light;
+}
+
+.admin-view_list {
+	@apply mt-10 w-[95%];
+}
+
+.admin-view_item {
+	@apply grid text-xl items-center mb-2;
+	grid-template-columns: 0.3fr 1.2fr 2.2fr 1.5fr 0.7fr 0.7fr 0.7fr;
+}
+.underline {
+	@apply border-b-[3px] border-gray-500 mb-3;
+}
+
+.item_index,
+.item_blocked,
+.item_removed,
+.item_remove,
+.item_block {
+	@apply text-center text-[26px];
+}
+
+.item_index,
+.item_blocked,
+.item_removed {
+	@apply text-xl;
+}
+
+.item_hover {
+	@apply cursor-pointer hover:text-gray-500;
+}

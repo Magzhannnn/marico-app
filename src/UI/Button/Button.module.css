@@ -1,0 +1,4 @@
+.button {
+	@apply bg-blue-500 py-3 px-5 text-center text-[20px]
+	text-white font-medium rounded-xl hover:bg-blue-700 cursor-pointer;
+}

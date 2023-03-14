@@ -1,0 +1,69 @@
+.user-case_list {
+	@apply flex items-center justify-start flex-wrap;
+}
+
+.user-case_item_finish {
+	@apply absolute top-[7px] right-[7px] font-normal text-base text-[#4a7de3]
+  bg-[#102142] pt-[9px] pr-[17px] pb-[6px] pl-[19px] w-max rounded-xl;
+}
+
+.user-case_list_loading {
+	@apply text-center text-[65px] font-bold w-full text-gray-300;
+}
+
+.user-case_item {
+	@apply relative w-[30%] h-[256px] mr-10 pt-[35px] pr-[47px] pb-4 pl-7 mb-10 rounded-xl border-textColor border hover:bg-gray-900 cursor-pointer;
+}
+
+.user-case_item_twitter,
+.user-case_item_youtube,
+.user-case_item_wordpress,
+.user-case_item_substack,
+.user-case_item_medium,
+.user-case_item_rss,
+.user-case_item_spotify,
+.user-case_item_anchor,
+.user-case_item_apple,
+.user-case_item_instagram,
+.user-case_item_linkedin,
+.user-case_item_facebook {
+	@apply mb-[17px] bg-[url("../../image/wordpress.png")] bg-cover bg-no-repeat rounded-full w-[50px] h-[50px];
+}
+.user-case_item_twitter {
+	@apply bg-[url("../../image/twitter.png")];
+}
+.user-case_item_youtube {
+	@apply bg-[url("../../image/youtube.png")];
+}
+.user-case_item_substack {
+	@apply bg-[url("../../image/substack.png")];
+}
+.user-case_item_medium {
+	@apply bg-[url("../../image/medium.png")];
+}
+.user-case_item_spotify {
+	@apply bg-[url("../../image/spotify.png")];
+}
+.user-case_item_anchor {
+	@apply bg-[url("../../image/anchor.png")];
+}
+.user-case_item_apple {
+	@apply bg-[url("../../image/applePod.png")];
+}
+.user-case_item_instagram {
+	@apply bg-[url("../../image/instagram.png")];
+}
+.user-case_item_linkedin {
+	@apply bg-[url("../../image/linkedin.png")];
+}
+.user-case_item_facebook {
+	@apply bg-[url("../../image/facebook.png")];
+}
+
+.user-case_item_title {
+	@apply font-semibold text-[30px] leading-[45px] mb-[11px];
+}
+
+.user-case_item_text {
+	@apply font-normal text-base leading-[34px] text-[#828282];
+}

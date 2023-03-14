@@ -1,0 +1,42 @@
+.about-header {
+	@apply w-max mx-auto my-[140px] text-[102px] leading-[108px] text-center;
+}
+
+.about-header_change {
+	@apply block;
+	background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.about-body_title {
+	@apply w-3/5 mx-auto text-[40px] leading-[60px] text-center font-medium mb-[50px];
+}
+
+.about-body_btns {
+	@apply flex items-center w-3/5 mx-auto justify-center space-x-5 mb-6;
+}
+
+.about-body_btn {
+	@apply w-full;
+}
+
+.about-body_btn_black {
+	@apply w-full bg-transparent text-textColor border border-textColor hover:bg-gray-700 hover:text-white;
+}
+
+.about-footer {
+	@apply flex items-center justify-center w-max mx-auto space-x-3 mb-10;
+}
+
+.about-footer_dot {
+	@apply bg-[url("../../image/dot.png")] bg-cover bg-no-repeat w-7 h-7;
+}
+
+.about-footer_number {
+	@apply text-[25px] leading-[38px] font-bold;
+}
+
+.about-footer_text {
+	@apply text-[25px] leading-[37.5px] text-textColor font-normal;
+}
